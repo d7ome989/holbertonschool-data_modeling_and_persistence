@@ -1,0 +1,1 @@
+Select title,price from books;
