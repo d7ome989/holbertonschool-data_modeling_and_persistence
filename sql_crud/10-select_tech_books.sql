@@ -1,3 +1,4 @@
-select title,price,stock
-from books
-where published_year >= 2000 AND genre = "Technology"
+SELECT title, price, stock
+FROM books
+WHERE genre = 'Technology'
+  AND year >= 2000;
